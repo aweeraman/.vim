@@ -15,6 +15,13 @@ Plugin 'ap/vim-buftabline'
 call vundle#end()
 
 set hidden
+set title
+
+set tabstop=8
+set softtabstop=8
+set shiftwidth=8
+set noexpandtab
+
 nnoremap <C-L> :bnext<CR>
 nnoremap <C-H> :bprev<CR>
 nnoremap <C-O> :VimFiler<CR>
