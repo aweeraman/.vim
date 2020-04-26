@@ -2,7 +2,7 @@ set nocompatible
 syntax on
 filetype off
 filetype plugin indent on
-colorscheme solarized8_low
+colorscheme onehalfdark
 
 set rtp+=~/.vim/bundle/Vundle.vim
 
