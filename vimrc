@@ -4,16 +4,13 @@ filetype off
 filetype plugin indent on
 colorscheme onehalfdark
 
-set rtp+=~/.vim/bundle/Vundle.vim
-
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'Shougo/unite.vim'
-Plugin 'jreybert/vimagit'
-Plugin 'bling/vim-bufferline'
-Plugin 'shougo/vimfiler.vim'
-Plugin 'airblade/vim-gitgutter'
-call vundle#end()
+call plug#begin('~/.vim/plugged')
+Plug 'Shougo/unite.vim'
+Plug 'jreybert/vimagit'
+Plug 'bling/vim-bufferline'
+Plug 'shougo/vimfiler.vim'
+Plug 'airblade/vim-gitgutter'
+call plug#end()
 
 set hidden
 set title
