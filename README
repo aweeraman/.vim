@@ -3,7 +3,6 @@
 ```
 $ cd /home/anuradha
 $ git clone https://github.com/aweeraman/.vim.git
-$ cd .vim
 ```
 
 Launch Vim and install plugins
