@@ -1,0 +1,13 @@
+# My personal vim setup
+
+```
+$ cd /home/anuradha
+$ git clone https://github.com/aweeraman/.vim.git
+$ cd .vim
+$ ./init.sh
+```
+
+Launch Vim and install plugins
+```
+:PluginInstall
+```
