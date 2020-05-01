@@ -6,7 +6,8 @@ colorscheme onehalfdark
 
 call plug#begin('~/.vim/plugged')
 Plug 'Shougo/unite.vim'
-Plug 'jreybert/vimagit'
+Plug 'tpope/vim-fugitive'
+Plug 'yggdroot/indentline'
 Plug 'bling/vim-bufferline'
 Plug 'shougo/vimfiler.vim'
 Plug 'airblade/vim-gitgutter'
@@ -18,7 +19,7 @@ set title
 set tabstop=8
 set softtabstop=8
 set shiftwidth=8
-set noexpandtab
+set expandtab
 
 nnoremap <C-L> :bnext<CR>
 nnoremap <C-H> :bprev<CR>
