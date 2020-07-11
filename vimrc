@@ -10,7 +10,7 @@ set nocompatible
 syntax on
 filetype off
 filetype plugin indent on
-colorscheme onehalfdark
+colorscheme molokai
 
 set hidden
 set title
@@ -28,3 +28,5 @@ nnoremap <C-X> :bdelete<CR>
 nnoremap <C-O> :VimFilerExplorer<CR>
 
 let g:vimfiler_as_default_explorer = 1
+
+silent !transset -a 0.85 >/dev/null
