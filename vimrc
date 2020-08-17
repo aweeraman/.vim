@@ -4,7 +4,6 @@ Plug 'yggdroot/indentline'
 Plug 'Shougo/unite.vim'
 Plug 'shougo/vimfiler.vim'
 Plug 'bling/vim-bufferline'
-Plug 'valloric/youcompleteme'
 call plug#end()
 
 set nocompatible
