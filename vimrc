@@ -4,6 +4,8 @@ Plug 'yggdroot/indentline'
 Plug 'Shougo/unite.vim'
 Plug 'shougo/vimfiler.vim'
 Plug 'bling/vim-bufferline'
+Plug 'reedes/vim-pencil'
+Plug 'junegunn/goyo.vim'
 call plug#end()
 
 set nocompatible
@@ -26,6 +28,9 @@ nnoremap <C-H> :bprev<CR>
 nnoremap <C-N> :tabnew<CR>
 nnoremap <C-X> :bdelete<CR>
 nnoremap <C-O> :VimFilerExplorer<CR>
+
+map <F2> :Goyo <bar> <CR>
+map <F3> :SoftPencil <bar> <CR>
 
 let g:vimfiler_as_default_explorer = 1
 
