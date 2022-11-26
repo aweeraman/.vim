@@ -6,6 +6,7 @@ Plug 'shougo/vimfiler.vim'
 Plug 'bling/vim-bufferline'
 Plug 'reedes/vim-pencil'
 Plug 'junegunn/goyo.vim'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 set nocompatible
