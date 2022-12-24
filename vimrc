@@ -1,19 +1,19 @@
 call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
-Plug 'yggdroot/indentline'
-Plug 'Shougo/unite.vim'
+Plug 'shougo/unite.vim'
 Plug 'shougo/vimfiler.vim'
 Plug 'bling/vim-bufferline'
 Plug 'reedes/vim-pencil'
 Plug 'junegunn/goyo.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'joshdick/onedark.vim'
 call plug#end()
 
 set nocompatible
 syntax on
 filetype off
 filetype plugin indent on
-colorscheme molokai
+colorscheme onehalfdark
 
 set hidden
 set title
