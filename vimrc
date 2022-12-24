@@ -7,6 +7,7 @@ Plug 'reedes/vim-pencil'
 Plug 'junegunn/goyo.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'joshdick/onedark.vim'
+Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
 
 set nocompatible
@@ -27,7 +28,7 @@ set number
 nnoremap <C-L> :bnext<CR>
 nnoremap <C-H> :bprev<CR>
 nnoremap <C-N> :tabnew<CR>
-nnoremap <C-X> :bdelete<CR>
+nnoremap <C-X> :bp <BAR> bd #<CR>
 nnoremap <C-O> :VimFilerExplorer<CR>
 
 map <F2> :Goyo <bar> <CR>
