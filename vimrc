@@ -13,7 +13,7 @@ set nocompatible
 syntax on
 filetype off
 filetype plugin indent on
-colorscheme onehalfdark
+colorscheme onedark
 
 set hidden
 set title
