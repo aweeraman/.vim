@@ -18,12 +18,13 @@ colorscheme onedark
 
 set hidden
 set title
-
+set cursorline
 set tabstop=8
 set softtabstop=8
 set shiftwidth=8
 set noexpandtab
-set number relativenumber
+set number
+set mouse=a
 
 nnoremap <C-L> :bnext<CR>
 nnoremap <C-H> :bprev<CR>
