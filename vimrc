@@ -7,14 +7,13 @@ Plug 'reedes/vim-pencil'
 Plug 'junegunn/goyo.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'morhetz/gruvbox'
 call plug#end()
 
 set nocompatible
 syntax on
 filetype off
 filetype plugin indent on
-colorscheme gruvbox
+colorscheme molokai
 
 set hidden
 set title
@@ -25,7 +24,6 @@ set shiftwidth=8
 set noexpandtab
 set number
 set mouse=a
-set background=dark
 
 nnoremap <C-L> :bnext<CR>
 nnoremap <C-H> :bprev<CR>
