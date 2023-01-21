@@ -24,6 +24,8 @@ set shiftwidth=8
 set noexpandtab
 set number
 set mouse=a
+set background=dark
+set bg=dark
 
 nnoremap <C-L> :bnext<CR>
 nnoremap <C-H> :bprev<CR>
