@@ -37,5 +37,3 @@ map <F2> :Goyo <bar> <CR>
 map <F3> :SoftPencil <bar> <CR>
 
 let g:vimfiler_as_default_explorer = 1
-
-silent !transset -a 0.85 >/dev/null
